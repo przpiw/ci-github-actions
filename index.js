@@ -1,3 +1,3 @@
-const print = require('./print')
+const print = require('./print');
 
-console.log(print('John', 'Doe'))
+console.log(print('John', 'Doe'));
