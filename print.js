@@ -1,3 +1,5 @@
-const print = (name, lastname) => `Name ${name} Lastname ${lastname}`;
+const print = (name,lastname)=>{
+  return `Name ${name} Lastname ${lastname}`
+}
 
 module.exports = print;
