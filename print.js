@@ -1,3 +1,3 @@
-const print = (name, lastname) => `Name ${name} Lastname ${lastname}`;
+const print = (name, lastname) => `Name ${name} Lastname ${lastname}`
 
-module.exports = print;
+module.exports = print
