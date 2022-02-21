@@ -1,3 +1,3 @@
-const print = require('./print');
+import print from './print';
 
 console.log(print('John', 'Doe'));
