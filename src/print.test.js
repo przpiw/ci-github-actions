@@ -1,4 +1,4 @@
-const print = require('./print')
+import print from './print'
 
 test('should return first and last name when called corectly', () => {
   const result = print('John', 'Doe')
