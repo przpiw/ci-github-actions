@@ -6,12 +6,12 @@
   "scripts": {
     "develop": "webpack --mode=development",
     "build": "webpack --mode=production",
-    "lint": "eslint . --fix",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix",
     "ci:lint": "eslint .",
     "test": "jest --watch",
     "ci:test": "jest --ci",
     "prepare": "husky install",
-    "lint:fix": "eslint --fix .",
     "ci:lighthouse": "lhci autorun"
   },
   "keywords": [],
